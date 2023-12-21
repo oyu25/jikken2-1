@@ -51,7 +51,7 @@ class _QuizPageState extends State<QuizPage> {
             children: [
               isCorrect
                   ? Text('正解！')
-                  : Text('不正解... 正解は「$correctAnswerSymbol」です。'),
+                  : Text('不正解.. 正解は「$correctAnswerSymbol」です。'),
               Text(explanation),
               SizedBox(height: 10.0),
               ElevatedButton(

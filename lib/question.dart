@@ -11,7 +11,7 @@ class Question {
 
   factory Question.fromJson(Map<String, dynamic> json) {
     return Question(
-      text: json['text'] ?? '',
+      text: json['text'] ?? ' ',
       answer: json['answer'] ?? false,
       explanation: json['explanation'] ?? '',
     );

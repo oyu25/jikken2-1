@@ -80,6 +80,7 @@ class ResultScreen extends StatelessWidget {
                 },
               ),
             ),
+
             SizedBox(height: 20.0),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceAround,

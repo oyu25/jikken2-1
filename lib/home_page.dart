@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+ import 'package:flutter/material.dart';
 import 'package:jikken1/secoundpage.dart';
 import 'quiz_page.dart'; // Ensure QuizPage is imported
 
